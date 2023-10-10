@@ -6,6 +6,7 @@ namespace Projeto_Aula_128
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Olá Mundo!!");
         }
     }
 }
