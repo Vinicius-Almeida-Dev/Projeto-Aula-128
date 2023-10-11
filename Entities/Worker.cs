@@ -22,7 +22,7 @@ namespace Projeto_Aula_128.Entities
             Level = level;
             BaseSalary = baseSalary;
             Department = department;
-        }
+        }  
 
         public void AddContract(HourContract contract)
         {
