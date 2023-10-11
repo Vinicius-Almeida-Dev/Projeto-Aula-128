@@ -24,9 +24,10 @@ namespace Projeto_Aula_128
             double Salary =  double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             Department Dept = new Department(deptName);
+            Console.WriteLine(Dept.Name);
             Worker worker = new Worker(Name, Lvl, Salary, Dept);
 
-            Console.Write("How many contracts to this worker?");
+            Console.Write("How many contracts to this worker? ");
             int N = int.Parse(Console.ReadLine());
             for (int i = 1; i <= N; i++)
             {
